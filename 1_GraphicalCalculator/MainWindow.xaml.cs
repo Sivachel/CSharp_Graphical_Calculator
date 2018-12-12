@@ -20,17 +20,77 @@ namespace _1_GraphicalCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        string operation;
+        int num1;
         public MainWindow()
         {
             InitializeComponent();
+            Display.Clear();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button button = (Button)sender;
-            Display.Text = button.Content.ToString();
+            Button numbutton = (Button)sender;
+            Display.Text += numbutton.Content.ToString();
            
             
+        }
+
+        private void Button_Click_clear(object sender, RoutedEventArgs e)
+        {
+            Button clearButton = (Button)sender;
+            Display.Clear();
+        }
+
+        private void Button_Click_result(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Result();
+            }
+            catch(Exception)
+            {
+                Display.Text = "Error";
+            }
+        }
+
+        private void Result()
+        {
+            int num2 = Convert.ToInt32(Display.Text);
+            if(operation == "+")
+            {
+                Display.Text = Convert.ToString(num1 + num2);
+            }else if(operation == "-")
+            {
+                Display.Text = Convert.ToString(num1 - num2);
+            }
+            else if(operation == "*")
+            {
+                Display.Text = Convert.ToString(num1 * num2);
+            }
+            else if(operation == "/")
+            {
+                Display.Text = Convert.ToString(num1 / num2);
+            }
+            else
+            {
+                Display.Text = "Error";
+            }
+        }
+        
+        private void Button_Click_operator(object sender, RoutedEventArgs e)
+        {
+            Button operatorButton = (Button)sender;
+            operation = operatorButton.Content.ToString();
+            if (Display.Text != null)
+            {
+                num1 = Convert.ToInt32(Display.Text);
+                Display.Clear();
+            }
+            else
+            {
+                Display.Text = "Error";
+            }
         }
     }
 }
