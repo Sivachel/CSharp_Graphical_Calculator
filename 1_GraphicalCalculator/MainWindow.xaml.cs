@@ -24,5 +24,13 @@ namespace _1_GraphicalCalculator
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            Display.Text = button.Content.ToString();
+           
+            
+        }
     }
 }
