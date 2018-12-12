@@ -1,0 +1,15 @@
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\bin\Debug\1_GraphicalCalculator.exe.config
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\bin\Debug\1_GraphicalCalculator.exe
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\bin\Debug\1_GraphicalCalculator.pdb
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.csprojAssemblyReference.cache
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\App.g.cs
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator_MarkupCompile.cache
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator_MarkupCompile.lref
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\MainWindow.baml
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.g.resources
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\_1_GraphicalCalculator.Properties.Resources.resources
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.csproj.GenerateResource.cache
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.csproj.CoreCompileInputs.cache
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.exe
+C:\Users\LOGARAJ\Desktop\sample_work\C#_buttonEvent\1_GraphicalCalculator\1_GraphicalCalculator\obj\Debug\1_GraphicalCalculator.pdb
