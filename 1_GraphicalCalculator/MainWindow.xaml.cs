@@ -50,7 +50,7 @@ namespace _1_GraphicalCalculator
             }
             catch(Exception)
             {
-                Display.Text = "Error";
+               
             }
         }
 
@@ -84,8 +84,16 @@ namespace _1_GraphicalCalculator
             operation = operatorButton.Content.ToString();
             if (Display.Text != null)
             {
-                num1 = Convert.ToInt32(Display.Text);
-                Display.Clear();
+                try
+                {
+                    num1 = Convert.ToInt32(Display.Text);
+                    Display.Clear();
+                }
+                catch (Exception)
+                {
+                    
+                }
+                
             }
             else
             {
